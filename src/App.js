@@ -1,9 +1,10 @@
+import Platform from "./Components/Platform/Platform";
 
 
 function App() {
   return (
     <div className="App">
-      Initial Template
+      <Platform/>
     </div>
   );
 }

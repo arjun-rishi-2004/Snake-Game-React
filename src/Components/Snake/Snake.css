@@ -1,0 +1,12 @@
+.snake{
+    width: 20px;
+    height: 10px;
+    background-color: green;
+    position: relative;
+    animation: move 10s infinite ;
+  }
+  
+  @keyframes move {
+    from {left: 0%;}
+    to {left: 100%;}
+  }
